@@ -62,7 +62,7 @@ public class PokemonController {
         () -> new ResourceNotFoundException("No Pokemon with that ID")
       );
 
-    return createHashSingular(pokemon);
+    return createHashSingular(updatedPokemon);
   }
 
   @DeleteMapping("/{id}")
