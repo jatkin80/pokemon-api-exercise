@@ -28,8 +28,8 @@ public class PokemonController {
   @GetMapping
   @ResponseStatus(HttpStatus.OK)
   public Map<String, Iterable<Pokemon>> list() {
-    Iterable<Pokemon> results = pokemonService.list();
-    return createHashPlural(results);
+    Iterable<Pokemon> pokePeople = pokemonService.list();
+    return createHashPlural(pokePeople);
   }
 
   @GetMapping("/{id}")
@@ -79,10 +79,10 @@ public class PokemonController {
   }
 
   private Map<String, Iterable<Pokemon>> createHashPlural(
-    Iterable<Pokemon> results
+    Iterable<Pokemon> pokePeople
   ) {
     Map<String, Iterable<Pokemon>> response = new HashMap<String, Iterable<Pokemon>>();
-    response.put("results", results);
+    response.put("results", pokePeople);
 
     return response;
   }
