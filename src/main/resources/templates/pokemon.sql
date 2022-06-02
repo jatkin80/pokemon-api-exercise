@@ -1,12 +1,12 @@
-DROP TABLE IF EXISTS results;
+DROP TABLE IF EXISTS pokemon;
 
-CREATE TABLE results(
-    id INTEGER PRIMARY KEY,
-    name TEXT UNIQUE,
-    imageUrl TEXT UNIQUE
+CREATE TABLE pokemon(
+    id serial PRIMARY KEY,
+    name VARCHAR(255),
+    imageUrl VARCHAR(2083)
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
 
 VALUES
 (
@@ -15,7 +15,7 @@ VALUES
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
 
     VALUES
     (
@@ -24,7 +24,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
 
     VALUES
     (
@@ -33,7 +33,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    4,
@@ -41,7 +41,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    5,
@@ -49,7 +49,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    6,
@@ -57,7 +57,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    7,
@@ -65,7 +65,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    8,
@@ -73,7 +73,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    9,
@@ -81,7 +81,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    10,
@@ -89,7 +89,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    11,
@@ -97,7 +97,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    12,
@@ -105,7 +105,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    13,
@@ -113,7 +113,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    14,
@@ -121,7 +121,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    15,
@@ -129,7 +129,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    16,
@@ -137,7 +137,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    17,
@@ -145,7 +145,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    18,
@@ -153,7 +153,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    19,
@@ -161,7 +161,7 @@ INSERT into
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png'
 );
 INSERT into
-    results(id, name, imageUrl)
+    pokemon(id, name, imageUrl)
     VALUES
     (
    20,
