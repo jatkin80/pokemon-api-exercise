@@ -127,7 +127,8 @@ INSERT into
    15,
   'beedrill',
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png'
-);INSERT into
+);
+INSERT into
     results(id, name, imageUrl)
     VALUES
     (
@@ -142,14 +143,16 @@ INSERT into
    17,
   'pidgeotto',
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png'
-);INSERT into
+);
+INSERT into
     results(id, name, imageUrl)
     VALUES
     (
    18,
   'pidgeot',
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png'
-);INSERT into
+);
+INSERT into
     results(id, name, imageUrl)
     VALUES
     (
