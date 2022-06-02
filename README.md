@@ -1,7 +1,5 @@
 ## Pokemon API
 
-Still need to work through creating the link for individual pokePeople.
-
 Link to deployed API https://julies-poke-api.herokuapp.com/api/pokemon
 
 - Return individual pokemon in this format:

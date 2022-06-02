@@ -1,6 +1,5 @@
 package com.juliemarieatkins.pokeapi.pokemon;
 
-
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
